@@ -6,11 +6,11 @@ import Header from '../components/Header/Header';
 const Main = () => {
     return (
         <>
-            <div className='home'>
+            <div className='home position-relative'>
                 <Header></Header>
                 <Outlet></Outlet>
-            </div>
             <Footer></Footer>
+            </div>
         </>
     );
 };
