@@ -1,7 +1,20 @@
 .navbar-search {
-    width: 300px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    background-image: url('../../assets/search-icon.png');
+    background-position: left top;
 }
 
-.nav-img{
+.navbar-search::placeholder {
+    color: white;
+}
+
+.nav-img {
     height: 50px;
+}
+@media only screen and (min-width: 992px) {
+    .navbar-search {
+        width: 350px;
+    }
 }

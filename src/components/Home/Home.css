@@ -1,0 +1,15 @@
+.home {
+    height: 95vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('../../assets/images/Rectangle\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* 
+.home-container {
+    width: 30%;
+    text-align: justify;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+} */
